@@ -15,3 +15,7 @@ dpkg -i virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
 # Mettre à jour les dépôts et installer les dépendances manquantes
 apt install -y
 apt -–fix-broken install
+
+
+# Mettre l'utilisateur étudiant dans le groupe vboxusers
+adduser etudiant vboxusers
