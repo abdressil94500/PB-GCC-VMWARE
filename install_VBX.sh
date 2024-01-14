@@ -9,7 +9,7 @@ dpkg -P virtualbox-dkms
 # Désinstaller virtualbox
 apt-get purge virtualbox
 
-# Installer la dernière version de VirtualBox (vous devrez remplacer "[Nom du fichier].deb" par le nom réel du fichier .deb)
+# Installer la dernière version de VirtualBox 
 dpkg -i virtualbox-7.0_7.0.12-159484~Ubuntu~jammy_amd64.deb
 
 # Mettre à jour les dépôts et installer les dépendances manquantes
