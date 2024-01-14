@@ -17,5 +17,7 @@ apt install -y
 apt --fix-broken install
 
 
-# Mettre l'utilisateur étudiant dans le groupe vboxusers
+# Ajouter l'utilisateur etudiant dans le groupe vboxusers
 adduser etudiant vboxusers
+# Redémarrez votre poste pour que les modifications soient prises en compte
+reboot now
