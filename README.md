@@ -9,7 +9,7 @@ Ensuite, se placer dans le répertoire où vous avez les deux éléments et exé
 
 # PB-GCC-VirtualBox
 Pour régler le problème avec le GCC sur l'application VirtualBox, il faut avoir tous ces fichiers dans le même répertoire et que les commandes doivent être réalisé en tant que super-utilisateur :
-- Télécharger la dernière version de virtualbox.
+- Télécharger la version 7.0.12 de virtualbox.
 - Cloner ce dépôt
 Ensuite, se placer dans le répertoire où vous avez les deux éléments et exécutez les deux commandes suivantes:
 - chmod +x ./install_VBX.sh 
